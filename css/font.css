@@ -1,0 +1,50 @@
+@font-face {
+     font-family: 'DungGeunMo';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+     font-weight: normal;  font-style: normal;
+}
+@font-face {
+    font-family: 'PFStardust';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/PFStardust.woff') format('woff');
+    font-weight: normal; font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap');
+
+
+body{ font-family:Noto Sans KR, sans-serif; }
+
+
+
+/* index */
+
+/* container1 */
+.box1, .box3{ font-family:PFStardust; }
+
+/* container1 - box2 - quick */
+.comu{ font-family:PFStardust; }
+
+/* container1 - box2 */
+.profile p{ font-family:DungGeunMo; }
+.quick option{ font-family:PFStardust; }
+
+/* container2 - box4 - news - list */
+.list th, .list td{ font-family:DungGeunMo; }
+
+/* container3 - menu */
+.menu button{ font-family:DungGeunMo; }
+
+
+/* photo */
+.photo_list h3{ font-family:PFStardust; }
+.photo_list p{ font-family:DungGeunMo; }
+
+
+/* diary */
+.date_box{ font-family:PFStardust; }
+.diary section h3{ font-family:DungGeunMo; }
+.diary section p{ font-family:PFStardust; }
+.secret button{ font-family:DungGeunMo; }
+
+/* come */
+.come section h3{ font-family:DungGeunMo; }
+.come section p{ font-family:PFStardust; }

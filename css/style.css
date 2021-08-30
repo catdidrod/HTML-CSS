@@ -1,0 +1,87 @@
+/* home */
+
+/* container1 - box2 - quick */
+.quick{ border-top:3px solid #e4aff8; width:270px; margin:150px 13px 0 13px; }
+.quick form{ margin:20px 35px 0 35px; }
+.quick select{ width:200px; height:40px; padding-left:10px; }
+
+
+/* container2 - box4 - profile */
+.profile img{ width:220px; height:147px; margin:30px 38px 40px 38px; }
+.profile p{ margin:0 30px; }
+.profile p:nth-of-type(1){ margin-bottom:10px; }
+.profile span{ font-weight:bold; color:purple; }
+
+
+/* container2 - box4 - news */
+.update{ margin:10px 0 0 10px; float:left; }
+.update p{ margin-bottom:8px; }
+.update span{ color:#fff; border-radius:5px; }
+.photo, .board{ font-size:15px; padding:1px 6px; }
+.photo{ background:#fd8265; }
+.board{ background:#65a9fd; }
+
+.list table{ padding-left:100px; margin-top:30px; }
+.list th, .list td{ border-bottom:1px dashed; height:40px; }
+.list th{ width:80px; }
+.list td{ width:60px; }
+.list td span{ color:red; }
+
+.room{ clear:both; margin-top:40px; }
+.room img{ width:541px; height:303px; margin-left:27px; margin-right:27px; }
+
+
+/* photo */
+.photo_list{ overflow-y:scroll; overflow-x:hidden; width:596px; height:490px; }
+.photo_list h3{ background:#bcbcbc; margin:10px 0 0 10px; padding-left:10px; }
+.photo_list p{ padding-left:10px; margin:10px 0 20px 0; line-height:25px; }
+.photo1 img, .photo2 iframe, .photo3 img{ margin-top:10px; }
+
+.photo1 img{ width:209px; height:300px; padding-left:10px; }
+
+.photo2 iframe{ width:560px; height:315px; padding-left:15px; border:none; }
+
+.photo3 img{ width:600px; height:360px; padding-left:10px; }
+
+
+/* diary */
+.date_box h2, .diary h2{ display:none; }
+
+.date_box{ flex-direction:row; display:flex; height:70px; width:581px; margin:10px 6px; border:1px solid; border-radius:8px; }
+.calendar{ flex:0.2; text-align:center;  border-right:1px solid; }
+.calendar{ line-height:35px; }
+.today{ font-size:28px; color:#999; }
+.day{ font-size:22px; color:#e4aff8; }
+
+.date_list{ flex:1; }
+.date_list p{ float:left; font-size:14px; font-weight:bold; line-height:30px; margin:0 8px; padding-top:5px; }
+.sat{ color:blue; }
+.sun{ color:red; }
+
+.diary{ overflow-y:scroll; width:596px; height:380px; }
+.diary section{ border:1px solid #999; margin:20px 0; }
+.diary section h3{ margin:20px 0 0 10px; }
+.diary section p{ margin:20px 0 20px 10px; }
+.diary span{ font-size:22px; color:#65c0ff; font-weight:500; }
+
+.secret_btn button{ background:none; border:none; color:#fff; width:200px; height:50px; text-align:center; margin-left:200px; }
+.secret_btn button:hover{ background:#e4aff8; cursor:pointer; font-size:16px; }
+.icon{ margin-right:10px; }
+
+#secret{ display:none; }
+
+
+/* come */
+.come1{ background:url(../images/come1.png)no-repeat left; background-size:140px; }
+.come2{ background:url(../images/come2.jpg)no-repeat left; background-size:140px; }
+.come3{ background:url(../images/come3.jpg)no-repeat left; background-size:140px; }
+.come>div{ overflow-y:scroll; height:460px; }
+.come section{ height:250px; margin-left:10px; }
+.come section h3{ background:#cbcbcb; height:40px; line-height:40px; padding-left:10px; }
+.come section h3>span{ margin:0 210px 0 20px; font-size:17px; }
+.come section p{ line-height:35px; margin:20px 0 0 180px; }
+
+.come_list{ text-align:center; }
+.come_list button{ border:none; background:none;  }
+.come_list button a{ display:block; width:20px; margin:0 2px; color:#000; text-decoration:none; }
+.come_list button a:hover{ text-decoration:underline; color:red; font-weight:bold; }
