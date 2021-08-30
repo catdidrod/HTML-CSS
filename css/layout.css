@@ -35,7 +35,7 @@ body{ background:url(../images/pattern.png) #999; background-size:100px; }
 .box4{ flex:1; }
 
 .box3 p{ float:left; }
-.box3 p:nth-child(2){ margin-left:60px; }
+.box3 p:nth-child(2){ margin-left:55px; }
 
 .box4 h2{ width:560px; font-size:20px; color:deepskyblue; border-bottom:2px solid cadetblue; padding:0 0 5px 10px; margin:10px 0 0 10px; }
 
@@ -43,7 +43,7 @@ body{ background:url(../images/pattern.png) #999; background-size:100px; }
 /* container3 */
 .container3{ flex:0.2; margin:10px 10px 10px 0; }
 .menu{ margin-top:70px; }
-.menu button{ width:80px; height:40px; margin-bottom:15px; background:#3b87ab; border:none; border-radius:0 10px 10px 0; }
+.menu button{ width:80px; height:40px; margin-bottom:15px; background:#3b87ab; border:none; border-radius:0 10px 10px 0; box-shadow:1px 5px 5px rgba(0,0,0,0.7); }
 .menu button a{ text-decoration:none; text-align:center; color:#fff; font-size:15px; display:block; padding:10px 0; }
 .menu button:hover{ background:#fff; cursor:pointer; }
 .menu button a:hover{ color:#000; }

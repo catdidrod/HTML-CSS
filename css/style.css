@@ -32,7 +32,7 @@
 
 
 /* photo */
-.photo_list{ overflow-y:scroll; overflow-x:hidden; width:596px; height:490px; }
+.photo_list{ overflow-y:scroll; overflow-x:hidden; width:595px; height:490px; }
 .photo_list h3{ background:#bcbcbc; margin:10px 0 0 10px; padding-left:10px; }
 .photo_list p{ padding-left:10px; margin:10px 0 20px 0; line-height:25px; }
 .photo1 img, .photo2 iframe, .photo3 img{ margin-top:10px; }
@@ -58,7 +58,7 @@
 .sat{ color:blue; }
 .sun{ color:red; }
 
-.diary{ overflow-y:scroll; width:596px; height:380px; }
+.diary{ overflow-y:scroll; width:594px; height:380px; }
 .diary section{ border:1px solid #999; margin:20px 0; }
 .diary section h3{ margin:20px 0 0 10px; }
 .diary section p{ margin:20px 0 20px 10px; }
@@ -76,7 +76,7 @@
 .come2{ background:url(../images/come2.jpg)no-repeat left; background-size:140px; }
 .come3{ background:url(../images/come3.jpg)no-repeat left; background-size:140px; }
 .come>div{ overflow-y:scroll; height:460px; }
-.come section{ height:250px; margin-left:10px; }
+.come section{ width:568px; height:250px; margin-left:10px; }
 .come section h3{ background:#cbcbcb; height:40px; line-height:40px; padding-left:10px; }
 .come section h3>span{ margin:0 210px 0 20px; font-size:17px; }
 .come section p{ line-height:35px; margin:20px 0 0 180px; }
